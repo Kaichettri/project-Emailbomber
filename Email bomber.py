@@ -2,9 +2,9 @@ import smtplib
 import sys
 
 class bgcolors:
-    GREEN='\033'
-    YELLOW='\033'
-    RED='\033'
+    GREEN='\033[93m'
+    YELLOW='\033[92m'
+    RED='\033[94m'
     WHITE='\033'
 
 def front():
