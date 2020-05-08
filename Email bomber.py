@@ -75,7 +75,7 @@ class Emailbomber:
   def send(self):
       try:
           self.s.sendmail(self.fAddr,self.target,self.msg)
-          self.count+=1
+          self.c+=1
           print(bgcolors.RED + "BOMB : {self.count}")
       except Exception as e:
           print("ERROR : {e}
